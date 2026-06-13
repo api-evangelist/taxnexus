@@ -1,0 +1,47 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "TaxNexus",
+  "url": "https://taxnexus.io/",
+  "description": "TaxNexus is a cannabis tax compliance REST API and financial technology service that automates calculation of state, county, and local cannabis excise taxes across supported jurisdictions including California and Oregon. Cannabis POS and ERP software developers can integrate with the TaxNexus API to calculate excise taxes, track and store tax data, and file monthly cannabis tax returns.",
+  "sameAs": [
+    "https://github.com/taxnexus",
+    "https://www.linkedin.com/company/taxnexus-ai",
+    "https://x.com/taxnexus",
+    "https://medium.com/@taxnexus"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "TaxNexus API",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "TaxNexus API",
+          "description": "RESTful HTTPS-based API for cannabis tax compliance. Enables calculation of state, county, and local cannabis excise taxes, storage of tax data, and support for monthly cannabis tax return filing across supported jurisdictions.",
+          "url": "https://taxnexus.io/index.php/taxnexus-api/",
+          "category": [
+            "Cannabis Tax",
+            "Excise Tax",
+            "Sales Tax",
+            "Compliance",
+            "REST API"
+          ]
+        }
+      }
+    ]
+  },
+  "knowsAbout": [
+    "Cannabis Tax Compliance",
+    "Excise Tax Calculation",
+    "Sales Tax Automation",
+    "Cannabis Industry FinTech",
+    "Cannabis POS Integration",
+    "ERP Integration",
+    "Monthly Tax Return Filing",
+    "California Cannabis Tax",
+    "Oregon Cannabis Tax"
+  ],
+  "dateModified": "2026-06-13"
+}
