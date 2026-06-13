@@ -1,0 +1,31 @@
+name: TaxNexus Plans and Pricing
+description: Pricing plans available for TaxNexus cannabis tax compliance API and services.
+url: https://taxnexus.io/
+plans:
+  - name: Taxnexus Developer
+    description: Personal sandbox environment for developers to build and test integrations with the TaxNexus API.
+    price: 39.00
+    unit: year
+    features:
+      - Instant access to personal sandbox environment
+      - RESTful API access for cannabis tax calculations
+      - JSON-based request and response format
+      - Support for California and Oregon cannabis excise tax jurisdictions
+  - name: Taxnexus IQ
+    description: Personalized tax reporting for cannabis businesses, supporting up to 5 business entities.
+    price: 129.00
+    unit: year
+    features:
+      - Personalized Taxnexus Report
+      - Support for up to 5 businesses
+      - State and local cannabis tax reporting
+      - Monthly cannabis tax return data
+  - name: Enterprise / Partner
+    description: Full integration tier for cannabis POS and ERP software makers requiring deep API integration and automatic tax handling.
+    price: 0.00
+    unit: contact
+    features:
+      - Full REST API access for state, county, and local excise taxes
+      - Track and store all tax data
+      - Monthly cannabis tax return filing support
+      - Partner-managed state and local taxes

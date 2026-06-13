@@ -1,0 +1,70 @@
+aid: taxnexus
+name: TaxNexus
+description: >
+  TaxNexus is a cannabis tax compliance REST API and financial technology service
+  that automates calculation of state, county, and local cannabis excise taxes across
+  supported jurisdictions including California and Oregon. Cannabis POS and ERP
+  software developers can integrate with the TaxNexus API to calculate excise taxes,
+  track and store tax data, and file monthly cannabis tax returns. The platform serves
+  cannabis businesses, software makers, and accountants seeking to automate real-world
+  cannabis tax compliance problems for recreational and medical cannabis taxpayers.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/taxnexus/refs/heads/main/apis.yml
+created: 2026-06-13
+modified: 2026-06-13
+specificationVersion: "0.19"
+tags:
+  - Tax
+  - Cannabis
+  - Sales Tax
+  - Tax Compliance
+  - Excise Tax
+  - FinTech
+  - Cannabis Industry
+apis:
+  - aid: taxnexus:taxnexus-api
+    name: TaxNexus API
+    description: >
+      RESTful HTTPS-based API for cannabis tax compliance. Enables calculation of
+      state, county, and local cannabis excise taxes, storage of tax data, and
+      support for monthly cannabis tax return filing across supported jurisdictions.
+      Uses JSON strings and inline parameters for all API interactions.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://taxnexus.io/index.php/taxnexus-api/
+    baseURL: https://taxnexus.dev
+    tags:
+      - Cannabis Tax
+      - Excise Tax
+      - Sales Tax
+      - Compliance
+      - REST API
+    properties:
+      - type: Documentation
+        url: https://taxnexus.io/index.php/taxnexus-api/
+      - type: Website
+        url: https://taxnexus.io/
+common:
+  - type: Website
+    url: https://taxnexus.io/
+  - type: Documentation
+    url: https://taxnexus.io/index.php/taxnexus-api/
+  - type: GitHubOrg
+    url: https://github.com/taxnexus
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/taxnexus-ai
+  - type: Blog
+    url: https://medium.com/@taxnexus
+  - type: Pricing
+    url: https://taxnexus.io/
+  - type: X
+    url: https://x.com/taxnexus
+  - type: Plans
+    url: plans/taxnexus-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/taxnexus-rate-limits.yml
+  - type: FinOps
+    url: finops/taxnexus-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

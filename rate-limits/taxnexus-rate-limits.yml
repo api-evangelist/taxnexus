@@ -1,0 +1,26 @@
+name: TaxNexus Rate Limits
+description: Rate limiting policy for the TaxNexus cannabis tax compliance REST API.
+url: https://taxnexus.io/index.php/taxnexus-api/
+notes: >
+  TaxNexus does not publicly document specific numeric rate limits. The following
+  represents standard API usage guidance based on available developer documentation.
+  Contact TaxNexus directly or review the developer sandbox at taxnexus.dev for
+  current enforcement details.
+limits:
+  - name: Developer Sandbox
+    description: Rate limits applied to the personal developer sandbox environment included with the Developer plan.
+    tier: Developer
+    requests: unknown
+    period: unknown
+    notes: Sandbox is intended for integration testing and development, not production load.
+  - name: Production API
+    description: Rate limits applied to production API usage for partner and enterprise integrations.
+    tier: Enterprise
+    requests: unknown
+    period: unknown
+    notes: Contact TaxNexus support or a registered partner for production rate limit details.
+authentication:
+  - type: API Key
+    description: RESTful HTTPS-based API using API keys for authentication. Requests use inline parameters and JSON payloads.
+  - type: Partner Credentials
+    description: Partner-level access may use dedicated credentials provisioned through the Taxnexus partner program.

@@ -1,0 +1,30 @@
+name: TaxNexus FinOps
+description: Financial operations guidance for managing costs when using the TaxNexus cannabis tax compliance API.
+url: https://taxnexus.io/
+considerations:
+  - name: Annual Subscription Model
+    description: >
+      TaxNexus uses annual subscription pricing rather than per-call billing.
+      Developer access is $39/yr and the IQ reporting tier is $129/yr.
+      Enterprise and partner integrations are negotiated separately.
+    type: subscription
+  - name: Sandbox vs Production
+    description: >
+      The Developer plan ($39/yr) provides a personal sandbox for testing.
+      Production API access for cannabis POS and ERP integrations is handled
+      through a partner or enterprise arrangement. Separating sandbox and
+      production usage prevents unexpected costs during development.
+    type: environment-separation
+  - name: Partner Program Cost Management
+    description: >
+      Cannabis businesses can sign up with a Taxnexus partner to have state and
+      local taxes handled automatically, or use the API directly for enterprise
+      self-service. Evaluating the partner route versus direct API integration
+      should factor in development effort, maintenance, and per-filing costs.
+    type: build-vs-buy
+  - name: Multi-Business Reporting
+    description: >
+      The Taxnexus IQ plan supports up to 5 business entities. Organizations
+      operating more than 5 cannabis businesses should evaluate enterprise pricing
+      to avoid per-plan overage costs.
+    type: scaling
