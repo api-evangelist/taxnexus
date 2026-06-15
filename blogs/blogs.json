@@ -5,5 +5,14 @@
     "lastFetched": "2026-06-13",
     "postCount": 0
   },
-  "posts": []
+  "posts": [],
+  "repo": "taxnexus",
+  "feeds": [
+    {
+      "source": "https://www.linkedin.com/company/taxnexus-ai",
+      "error": "HTTPError"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-14T20:42:17Z"
 }
