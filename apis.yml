@@ -45,6 +45,8 @@ apis:
       - type: Website
         url: https://taxnexus.io/
 common:
+  - type: DomainSecurity
+    url: security/taxnexus-domain-security.yml
   - type: Website
     url: https://taxnexus.io/
   - type: Documentation
