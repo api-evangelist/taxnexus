@@ -9,6 +9,17 @@ description: >
   cannabis businesses, software makers, and accountants seeking to automate real-world
   cannabis tax compliance problems for recreational and medical cannabis taxpayers.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
