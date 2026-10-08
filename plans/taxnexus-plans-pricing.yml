@@ -33,3 +33,34 @@ plans:
       - Track and store all tax data
       - Monthly cannabis tax return filing support
       - Partner-managed state and local taxes
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - metered
+  - subscription
+  units:
+  - active-user
+  - period
+  plans:
+  - name: Taxnexus Developer
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - period
+    periods: []
+  - name: Taxnexus IQ
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - period
+    periods: []
+  - name: Enterprise / Partner
+    access: other
+    model: metered
+    model_how: derived
+    units:
+    - active-user
+    periods: []
