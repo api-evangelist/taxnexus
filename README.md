@@ -1,4 +1,4 @@
-# TaxNexus (taxnexus)
+# TaxNexus
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,63 +66,102 @@
 
 TaxNexus is a cannabis tax compliance REST API and financial technology service that automates calculation of state, county, and local cannabis excise taxes across supported jurisdictions including California and Oregon. Cannabis POS and ERP software developers can integrate with the TaxNexus API to calculate excise taxes, track and store tax data, and file monthly cannabis tax returns. The platform serves cannabis businesses, software makers, and accountants seeking to automate real-world cannabis tax compliance problems for recreational and medical cannabis taxpayers.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/taxnexus/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/taxnexus/refs/heads/main/apis.yml)
+**Areas:** Tax · Cannabis · Sales Tax · Tax Compliance · Excise Tax · Fintech · Cannabis Industry
 
-## Scope
+## TaxNexus on APIs.io
 
-- **Type:** Index
+Everything profiled for TaxNexus is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/taxnexus/](https://apis.io/providers/taxnexus/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (1)
 
-- Tax
-- Cannabis
-- Sales Tax
-- Tax Compliance
-- Excise Tax
-- FinTech
-- Cannabis Industry
+- [TaxNexus API](https://apis.io/apis/taxnexus/taxnexus-api/) — RESTful HTTPS-based API for cannabis tax compliance. Enables calculation of state, county, and local cannabis excise taxes, storage of tax data, and support…
 
-## Timestamps
+### Published properties
 
-- **Created:** Fri Jun 12 2026 20:00:00 GMT-0400 (Eastern Daylight Time)
-- **Modified:** Fri Jun 12 2026 20:00:00 GMT-0400 (Eastern Daylight Time)
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### TaxNexus API
+Authentication, trust centre, and vulnerability disclosure.
 
-RESTful HTTPS-based API for cannabis tax compliance. Enables calculation of state, county, and local cannabis excise taxes, storage of tax data, and support for monthly cannabis tax return filing across supported jurisdictions. Uses JSON strings and inline parameters for all API interactions.
+- [Taxnexus Domain Security](https://apis.io/security/taxnexus/taxnexus-domain-security/)
 
-- **Human URL:** [https://taxnexus.io/index.php/taxnexus-api/](https://taxnexus.io/index.php/taxnexus-api/)
-- **Base URL:** `https://taxnexus.dev`
+#### Plans and pricing (1)
 
-#### Tags
+Published plans, tiers and prices.
 
-- Cannabis Tax
-- Excise Tax
-- Sales Tax
-- Compliance
-- REST API
+- [Taxnexus Plans Pricing](https://apis.io/plans/taxnexus/taxnexus-plans-pricing/)
 
-#### Properties
+#### Rate limits (1)
 
-- [Documentation](https://taxnexus.io/index.php/taxnexus-api/)
-- [Website](https://taxnexus.io/)
+Published request limits.
 
-## Common Properties
+- [Taxnexus Rate Limits](https://apis.io/rate-limits/taxnexus/taxnexus-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Taxnexus Finops](https://apis.io/finops/taxnexus/taxnexus-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://taxnexus.io/)
 - [Documentation](https://taxnexus.io/index.php/taxnexus-api/)
-- [Git Hub Org](https://github.com/taxnexus)
-- [LinkedIn](https://www.linkedin.com/company/taxnexus-ai)
-- [Blog](https://medium.com/@taxnexus)
 - [Pricing](https://taxnexus.io/)
-- [X (Twitter)](https://x.com/taxnexus)
-- [Plans](plans/taxnexus-plans-pricing.yml)
-- [Rate Limits](rate-limits/taxnexus-rate-limits.yml)
-- [Fin Ops](finops/taxnexus-finops.yml)
+- [Blog](https://medium.com/@taxnexus)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 10.7** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 13.2 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/taxnexus/](https://apis.io/providers/taxnexus/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for TaxNexus: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/taxnexus/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
